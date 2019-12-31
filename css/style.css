@@ -1,0 +1,39 @@
+.body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(51, 51, 51);
+  width: 900px;
+  margin: auto;
+}
+.header__title {
+  color: #fff;
+  background-color: rgb(141, 16, 16);
+  border-bottom: 3px solid #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.header__internal-links, .header__social-links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.header__nav-link {
+  color: #FFF;
+  text-decoration: none;
+  margin-right: 15px;
+}    
+.header__nav-social-links {
+  margin-left: 15px;
+  height: 1.5em;
+}      
