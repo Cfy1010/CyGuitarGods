@@ -1,5 +1,5 @@
 .body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(51, 51, 51);
   width: 900px;
   margin: auto;
@@ -19,21 +19,69 @@
 .header__nav {
   display: flex;
   justify-content: space-between;
-
 }
 
-
-.header__internal-links, .header__social-links {
+.header__internal-links,
+.header__social-links {
   list-style-type: none;
   display: flex;
   padding: 0;
 }
 .header__nav-link {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
-  margin-right: 15px;
-}    
+  margin-right: 1em;
+  font-weight: bold;
+}
 .header__nav-social-links {
   margin-left: 15px;
   height: 1.5em;
-}      
+}
+
+.presentation__title {
+  color: rgb(141, 16, 16);
+  font-style: italic;
+}
+.presentation__text {
+  color: #fff;
+  font-weight: bold;
+}
+
+.highlight {
+  position: relative;
+}
+
+.highlight__title {
+  color: #fff;
+  background-color: rgb(141, 16, 16);
+  position: absolute;
+  padding: 0.2em;
+  margin: 0;
+}
+.highlight__image {
+  width: 100%;
+}
+
+.gallery {
+  width: 70%;
+  float: left;
+  /* astuce pour enlever les espaces du html */
+  font-size: 0;
+}
+
+.gallery__image {
+  width: calc(25% - 5px);
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+.gallery__image:first-of-type {
+  width: calc(50% - 5px);
+  float: left;
+}
+
+.community {
+  width: 30%;
+  float: right;
+}
