@@ -75,7 +75,6 @@
   margin-bottom: 5px;
 }
 
-
 .gallery__image:first-of-type {
   width: calc(50% - 5px);
   float: left;
@@ -84,4 +83,37 @@
 .community {
   width: 30%;
   float: right;
+  width: 30%;
+  float: right;
+  background-color:
+  rgb(141, 16, 16);
+  color:
+  #fff;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.community__title {
+  border-bottom: 2px solid white;
+  padding: 1em 0;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.community__text {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.community__link {
+  color: orange;
+}
+
+.copyright {
+  color: #fff;
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+  padding: 80px 0 20px;
 }
