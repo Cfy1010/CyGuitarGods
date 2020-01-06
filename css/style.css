@@ -16,6 +16,15 @@
   margin: 0px;
 }
 
+.header__title-heart {
+  font-size: 45px;
+  transition: 1.5s;
+}
+.header__title-heart:hover {
+  font-size: 65px;
+ 
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
